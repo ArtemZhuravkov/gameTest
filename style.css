@@ -1,0 +1,74 @@
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+:root{
+    --border: 1px solid #000;
+}
+.land {
+  width: 900px;
+  height: 700px;
+  border: 2px solid #000;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.list_of_warriors {
+    border: var(--border);
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    background-image: url(img/tavern_wall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+    padding-bottom: 20px;
+}
+.list_of_warriors_title {
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+}
+.list_of_warriors_item {
+  width: 150px;
+  height: 150px; 
+  border: 3px solid #000; 
+  border-radius: 4px; 
+}
+.list_unit {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+.list_unit_border {
+  outline: 3px solid rgb(218, 97, 16);
+  cursor: pointer;
+}
+.coast_style {
+  color: rgb(221, 32, 32);
+  font-weight: bold;
+  font-size: 18px;  
+}
+.money_cell {
+  height: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  display: inline;
+  color: rgb(216, 19, 19);
+  border: 3px solid #000;
+}
+.field {
+    border: var(--border);
+    width: 30%;
+}
+.scoreboard {
+    border: var(--border);
+    width: 30%;
+}
